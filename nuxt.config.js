@@ -4,6 +4,9 @@ export default {
 
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
+  router: {
+    base: '/product-app/'
+  },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
